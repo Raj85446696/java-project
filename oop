@@ -1,0 +1,17 @@
+class Raj{
+    int a = 78;
+    int b = 90;
+    public int sum(){
+        return (a+b);
+    }
+    public int sub(){
+        return (a-b);
+    }
+    public static void main(String[] args) {
+        Raj n = new Raj();
+        System.out.println(n.a);
+        System.out.println(n.b);
+        System.out.println(n.sum());
+        System.out.println(n.sub());
+    }
+}
